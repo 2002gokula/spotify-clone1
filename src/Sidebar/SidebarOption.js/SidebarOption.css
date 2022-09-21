@@ -1,0 +1,28 @@
+.SidebarOption {
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 200ms color ease-in;
+}
+
+.SidebarOption:hover {
+  color: white;
+}
+
+.SidebarOption > h1 {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin-block: 0px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  font-family: --font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr,
+    CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, --fallback-fonts,
+    sans-serif;
+  color: inherit;
+}
+
+.sidebarIcon {
+  padding-left: 10px;
+  padding-right: 10px;
+}

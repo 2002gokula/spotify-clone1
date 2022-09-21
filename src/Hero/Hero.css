@@ -1,0 +1,56 @@
+.hero {
+  /* display: flex; */
+}
+
+.PlaylistImage > img {
+  height: 16vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgb(0 0 0 / 50%);
+}
+.PlaylistTitle {
+  padding: 10px;
+  flex: 1;
+}
+.PlaylistTitle > h1 {
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
+.PlaylistTitle > h2 {
+  padding: 0.08em 0px 0.14em;
+  visibility: visible;
+  /* width: 100%; */
+  flex: 1;
+  font-size: 6rem;
+}
+.PlaylistTitle > h3 {
+  color: rgb(179, 179, 179);
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+.cPwEdQ {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  margin-block: 0px;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  font-family: --font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr,
+    CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, --fallback-fonts,
+    sans-serif;
+  color: white;
+}
+.Playlist__Likes {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.Playlist__Likes > div > a {
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+.RANLXG3qKB61Bh33I0r2 {
+  color: hsla(0, 0%, 100%, 0.7);
+  white-space: nowrap;
+}

@@ -1,0 +1,15 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.login > img {
+  width: 70%;
+}
+
+.login > button {
+  padding: 20px;
+  background-color: green;
+}
